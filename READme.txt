@@ -2,4 +2,4 @@ This Webpage is a project to fufill the Front End Web Development cohort for Cod
 
 This simple page targets various career elements of a classical musician and includes photos, audio and video.
 
-It is built primarily with HTML and CSS with some required javaScript. Bootstrap is primarily used for responsive layout.
+It is built primarily with HTML and CSS with minimal required javaScript
