@@ -1,0 +1,144 @@
+/* page basic color */
+body{
+    background: #e29c9c;    
+}
+
+
+.name{
+    font-size: 4em;
+    font-family: fantasy;
+    text-align: center;
+}
+
+h2{
+    background: #a27373;
+    text-align: center;
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+
+/* create flex-box for header and nav for responsive design */
+.nav, .concertNav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header{
+    justify-content: space-between;
+    }
+
+.nav, .concertNav{
+   flex: 1;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+/* change nav bar layouts to row at larger screen */
+@media all and (min-width: 640px) {
+    .header, .nav, .concertNav {
+      flex-direction: row;
+    }
+  }
+
+  /* find breakpoints where 2-word links need spacing */
+
+
+  /* style nav li's */
+
+
+  a{
+    color: slategrey;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  nav li a:hover{
+
+  }
+
+   /* About */
+    /* mobile first */
+    .aboutImg{
+        text-align: center;
+    }
+    .aboutText{
+        text-align: center;
+    }
+    /* bigger screens */
+    @media all and (min-width: 640px){
+
+    }
+
+  /* Upcoming performances */
+    /* mobile first */
+    .gigsImg{
+        text-align: center;
+    }
+    .gigsText{
+        text-align: center;
+    }
+    /* bigger screens */
+    @media all and (min-width: 640px){
+
+    }
+
+
+
+
+  /* Teaching */
+    /* mobile first */
+    .teachImg{
+        text-align: center;
+    }
+    .teachText{
+        text-align: center;
+    }
+    .linkA, .linkB{
+        text-align: center;
+    }
+        /* create space between links, smaller size on mobile first */
+
+    /* bigger screens */
+    @media all and (min-width: 640px){
+
+    }
+
+
+  /* Hire */
+    /* mobile first */
+    .hireText{
+        text-align: center;
+    }
+
+    .wrapper{
+        text-align: center;
+    }
+
+
+  /* bigger screens */
+  @media all and (min-width: 640px){
+
+}
+
+
+
+  /* Videos */
+
+  /* bigger screens */
+  @media all and (min-width: 640px){
+
+}
+
+  /* Footer/Contact Info */
+
+  /* bigger screens */
+  @media all and (min-width: 640px){
+
+}
