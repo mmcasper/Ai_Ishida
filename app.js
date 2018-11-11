@@ -25,7 +25,9 @@
 // $secureLinks.attr("target","_blank");
 
 // $('a[href^="https://"]').attr('target','_blank');
-$("a[href^='http']").attr('target','_blank');
+
+const secureLinks=$('a[href^="http"]');
+$(secureLinks).attr('target','_blank');
 
 // $('a[href^="https://"]').attr('target', '_blank');
 
