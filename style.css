@@ -14,7 +14,8 @@ h2{
     background: #a27373;
     text-align: center;
     font-size: 3em;
-    margin: 0px 10px 15px 10px;
+    margin: 0px 15px 15px 15px;
+    padding: 2% 0;
 }
 /* paragraph size and coloring */
 p{
@@ -90,17 +91,19 @@ img{
     }
     .aboutText{
         text-align: center;
-        padding-top: 5%;
-        padding-bottom: 3%;
+        margin: 5px 8px;
+        
+        
     }
     @media all and (min-width: 900px){
         .aboutImg{
             float: left;
-            margin: 12% 5% 10% 2%;           
+            margin: 12% 5% 12% 2%;           
         }
         .aboutText{
             text-align: left;
             padding-top: 2%;
+            margin-bottom: 2%;
         }
         /* .aboutText{
             flex-wrap: wrap;
@@ -123,6 +126,7 @@ img{
     @media all and (min-width: 900px){
         .gigsText{
             padding-bottom: 3%;
+        
         }
 
     }
@@ -138,10 +142,13 @@ img{
     /* mobile first */
     .teachImg{
         text-align: center;
+        padding-top: 2%;
+
     }
     .teachText{
         text-align: center;
         padding-top: 5%;
+
     }
     .linkA, .linkB{
         text-align: center;

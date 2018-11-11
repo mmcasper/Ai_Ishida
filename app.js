@@ -1,4 +1,4 @@
-const secureLinks=$('a[href^="http"]');
+const secureLinks=('a[href^="http"]');
 $(secureLinks).attr('target','_blank');
 
 // $('a[href^="https://"]').attr('target', '_blank');
