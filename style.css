@@ -3,7 +3,6 @@ body{
     background: #e29c9c;    
 }
 
-
 .name{
     font-size: 4em;
     font-family: fantasy;
@@ -40,16 +39,12 @@ img{
     flex-direction: column;
     text-align: center;
 }
-
-
-
 .nav, .concertNav{
    flex: 1;
     justify-content: space-around;
     list-style-type: none;
     text-decoration: none;
     width: 100%;
-
 }
 /* change nav bar layouts to row at larger screen */
 @media all and (min-width: 900px) {
@@ -80,22 +75,16 @@ img{
   a:hover{
       color: purple;
   }
-
-  /* nav li a:hover{
-
-  } */
-
-   /* About */
+    /* About */
     /* mobile first */
     .aboutImg{
         text-align: center;
     }
     .aboutText{
         text-align: center;
-        margin: 5px 8px;
-        
-        
+        margin: 5px 8px;    
     }
+
     @media all and (min-width: 900px){
         .aboutImg{
             float: left;
@@ -106,11 +95,9 @@ img{
             padding-top: 2%;
             margin-bottom: 2%;
         }
-        /* .aboutText{
-            flex-wrap: wrap;
-        } */
     }
-/* Upcoming performances */
+
+    /* Upcoming performances */
     /* mobile first */
     .gigsImg{
         text-align: center;
@@ -129,18 +116,16 @@ img{
             padding-bottom: 3%;
         
         }
-
     }
+
     @media all and (min-width: 1100px){
         .concertNav{
             font-size: 130%;
         }
     }
 
-
-
   /* Teaching */
-    /* mobile first */
+  /* mobile first */
     .teachImg{
         text-align: center;
         padding-top: 2%;
@@ -192,11 +177,7 @@ img{
       .hireText{
           padding-bottom: 3%;
       }
-
-
 }
-
-
 
   /* Videos */
   /* Creat flexbox for embedded youtube videos */
@@ -248,5 +229,4 @@ iframe {
 }
   /* bigger screens */
   @media all and (min-width: 640px){
-
 }
