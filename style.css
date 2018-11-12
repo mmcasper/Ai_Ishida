@@ -198,16 +198,32 @@ img{
 
 
   /* Videos */
+  /* Creat flexbox for embedded youtube videos */
     #videos{
         padding-top: 10%;
     }
+
+    .videoBox{
+        display: inline-block;
+        
+        margin-bottom: 10%;
+        text-align: center;
+    }
+iframe {
+    padding: 0 5%;
+    margin-top: 10%;
+}
+
 
   /* bigger screens */
   @media all and (min-width: 900px){
     #videos{
         padding-top: 3%;
     }
-
+    .videobox{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
   /* Footer/Contact Info */
