@@ -39,6 +39,7 @@ h2{
         border-radius: 20% 90%;
     }
 }
+
 /* paragraph size and coloring */
 p{
     font-size: 1em;
@@ -50,7 +51,7 @@ p{
          margin: 0px 4px;
      }
  }
-/* respnonsive shape for imag */
+
 /* mobile first */
 img{
     border-radius: 120%;
@@ -75,24 +76,25 @@ img{
       width: 100%;
     }
   }
-/* make nav larger font on larger screens */
+
+  /* make nav larger font on larger screens */
   @media all and (min-width: 1000px){
       .nav{
           font-size: 140%;
       }
   }
- /* style nav li's and spacing */
+ 
+  /* style nav li's and spacing */
     .nav{
         padding: 0% 5% 5% 5%;
     }
-
-  a{
-    color: #383838;
-    text-decoration: none;
-    font-size: 1.5em;
-    font-weight: bold;
- 
-  }
+    a{
+        color: #383838;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: bold;
+    
+    }
 
   a:hover{
       color: #5D478B;
@@ -106,7 +108,7 @@ img{
         text-align: center;
         margin: 5px 8px;    
     }
-
+    /*bigger screens */
     @media all and (min-width: 900px){
         .aboutImg{
             float: left;
@@ -163,7 +165,7 @@ img{
         font-size: .75em;
         color: slategray;
     }
-/* bigger screens */
+    /* bigger screens */
     @media all and (min-width: 900px){
         .linkA, .linkB{
             font-size: 1em;
@@ -172,8 +174,6 @@ img{
     .teachText{
         padding-bottom: 3%;
     }
-        /* create space between links, smaller size on mobile first */
-
 
   /* Hire */
     /* mobile first */
