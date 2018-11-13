@@ -126,7 +126,7 @@ img{
     }
     .gigsText{
         text-align: center;
-        padding-top: 5%;
+        padding-top: 3%;
     }
 
     .concertNav{
@@ -150,12 +150,12 @@ img{
   /* mobile first */
     .teachImg{
         text-align: center;
-        padding-top: 2%;
+        /* padding-top: 2%; */
 
     }
     .teachText{
         text-align: center;
-        padding-top: 5%;
+        padding-top: 3%;
 
     }
     .linkA, .linkB{
@@ -205,7 +205,7 @@ img{
   /* Videos */
   /* Creat flexbox for embedded youtube videos */
     #videos{
-        padding-top: 4%;
+        padding-top: 2%;
     }
 
     .videoBox{
