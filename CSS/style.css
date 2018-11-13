@@ -211,8 +211,8 @@ img{
     .videoBox{
         display: flex;
         flex-direction: column;
-        margin-bottom: 2%;
         text-align: center;
+        margin-bottom: 2%;
     }
 iframe {
     padding: 0 5%;
@@ -236,6 +236,9 @@ iframe {
     .videoWrapper{
         margin-top: 2%;
     }
+    .videoBox{
+        margin-bottom: 4%;
+    }
 }
 
   /* bigger screens */
@@ -245,8 +248,6 @@ iframe {
         flex-direction: row;
     }
 }
-/* --make embedded videos smaller--- */
-
 
   /* Footer/Contact Info */
   footer{
@@ -259,6 +260,10 @@ iframe {
         font-size: .75em;
         color: black;
   }
+  #contact{
+      margin-top: 2%;
+  }
+
   #return{
     font-size: .75em;
     text-align: center;
@@ -272,5 +277,17 @@ iframe {
     footer{
         border-radius: 70%;
         padding: 3% 3% 1%;
+    }
+}
+
+/* fix footer content on small screens */
+@media all and (max-width: 500px){
+    #contact{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    span{
+        float: none;
     }
 }
