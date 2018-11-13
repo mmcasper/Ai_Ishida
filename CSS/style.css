@@ -47,7 +47,7 @@ p{
  @media all and (min-width: 900px){
      p{
          font-size: 1.5em;
-         margin: 0px 10px;
+         margin: 0px 4px;
      }
  }
 /* respnonsive shape for imag */
@@ -83,7 +83,7 @@ img{
   }
  /* style nav li's and spacing */
     .nav{
-        padding: 0% 5% 10% 5%;
+        padding: 0% 5% 5% 5%;
     }
 
   a{
@@ -205,13 +205,13 @@ img{
   /* Videos */
   /* Creat flexbox for embedded youtube videos */
     #videos{
-        padding-top: 10%;
+        padding-top: 4%;
     }
 
     .videoBox{
         display: flex;
         flex-direction: column;
-        margin-bottom: 10%;
+        margin-bottom: 2%;
         text-align: center;
     }
 iframe {
@@ -232,8 +232,10 @@ iframe {
 	left: 0;
 	width: 100%;
     height: 100%;
-    margin-top: 2%;
-}
+    }
+    .videoWrapper{
+        margin-top: 2%;
+    }
 }
 
   /* bigger screens */
